@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/ddrescue-split-calculator/",
             "outputPath": "dist/ddrescue-split-calculator",
             "index": "src/index.html",
             "main": "src/main.ts",
